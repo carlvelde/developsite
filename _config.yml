@@ -1,0 +1,19 @@
+# Site settings
+title: Develop.hm.com
+tagline: Let's build something
+description: > # this means to ignore newlines until "baseurl:"
+  Develop.hm.com contain information on how to design, build and host applications
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://example.com" # the base hostname & protocol for your site
+
+# Plugins
+gems: ["jekyll-paginate"]
+
+# Build settings
+markdown: kramdown
+sass:
+  sass_dir: assets/sass
+
+# Pagination
+paginate: 4
+paginate_path: "/blog/page:num/"
